@@ -2,15 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 namespace CalculoDeRisco.REGULAMENTAR
-=======
-namespace PrimeiroProjeto.REGULAMENTAR
->>>>>>> 79ac04b387940018f32fb09d4cbb53c86586d7a1
-=======
-namespace PrimeiroProjeto.REGULAMENTAR
->>>>>>> 79ac04b387940018f32fb09d4cbb53c86586d7a1
 {
     internal class FloatingRateRisk
     {
@@ -26,6 +18,7 @@ namespace PrimeiroProjeto.REGULAMENTAR
         // Vértices em dias úteis
         private static readonly int[] Vertices = { 1, 21, 42, 63, 126, 252, 504, 756, 1008, 1260, 2520 };
 
+        // Método principal para calcular o RWA
         public double CalculateRWAJUR2(List<CashFlow> cashFlows, double mext)
         {
             // Inicializa variáveis para os cálculos
@@ -181,8 +174,8 @@ namespace PrimeiroProjeto.REGULAMENTAR
 
     public class CashFlow
     {
-        public string Currency { get; set; }
-        public double Value { get; set; }
-        public int MaturityInBusinessDays { get; set; }
+        public string Currency { get; set; } // Moeda do fluxo de caixa
+        public double Value { get; set; } // Valor do fluxo de caixa
+        public int MaturityInBusinessDays { get; set; } // Vencimento em dias úteis
     }
 }

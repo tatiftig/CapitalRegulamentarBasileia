@@ -1,19 +1,10 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 namespace CalculoDeRisco.REGULAMENTAR
-=======
-namespace StandardizedApproachRegulatoryCapitalForExposurePJUR1Calculation
->>>>>>> 79ac04b387940018f32fb09d4cbb53c86586d7a1
-=======
-namespace StandardizedApproachRegulatoryCapitalForExposurePJUR1Calculation
->>>>>>> 79ac04b387940018f32fb09d4cbb53c86586d7a1
 {
-
     public class FixedRateExposureRisk
     {
-        public double RiskWeightedAsset { get; set; }
-        public double CapitalRequirement { get; set; }
-    };
+        public double RiskWeightedAsset { get; set; } // Ativo ponderado pelo risco
+        public double CapitalRequirement { get; set; } // Requisito de capital
+    }
 
     public class FixedRateExposureRiskCalculation
     {
