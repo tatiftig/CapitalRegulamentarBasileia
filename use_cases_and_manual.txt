@@ -1,0 +1,21 @@
+# Casos de Uso e Manual
+
+## Casos de Uso
+1. **Calcular Capital Regulatório para DRC**:
+   - Entrada: Uma lista de exposições e um fator para o requisito total de capital.
+   - Saída: Requisitos de capital e ativos ponderados pelo risco.
+
+2. **Análise de Sensibilidade para Forex**:
+   - Entrada: Instrumentos financeiros e categorias de risco.
+   - Saída: Componentes de risco Delta para diferentes cenários de correlação.
+
+## Manual
+### Função: GetStandardizedApproachRegulatoryCapitalForDrcCalculation
+- **Entrada**: `StandardizedApproachRegulatoryCapitalForDrcInput`
+- **Saída**: `StandardizedApproachRegulatoryCapitalForDrcOutput`
+- **Descrição**: Calcula o capital regulatório para DRC usando abordagens padronizadas.
+
+### Função: CalcularDeltaFX
+- **Entrada**: Lista de instrumentos financeiros e categorias de risco.
+- **Saída**: Componentes de risco Delta.
+- **Descrição**: Calcula o componente Delta do risco de câmbio.

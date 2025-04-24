@@ -1,4 +1,12 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+namespace CalculoDeRisco.REGULAMENTAR
+=======
 namespace StandardizedApproachRegulatoryCapitalForExposurePJUR1Calculation
+>>>>>>> 79ac04b387940018f32fb09d4cbb53c86586d7a1
+=======
+namespace StandardizedApproachRegulatoryCapitalForExposurePJUR1Calculation
+>>>>>>> 79ac04b387940018f32fb09d4cbb53c86586d7a1
 {
 
     public class FixedRateExposureRisk

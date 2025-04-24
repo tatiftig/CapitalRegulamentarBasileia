@@ -434,3 +434,14 @@ namespace StandardizedApproachRegulatoryCapitalForForeignExchangeCalculation
 
 };
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+namespace CalculoDeRisco.REGULAMENTAR
+{
+// ...existing code...
+}
+
+=======
+>>>>>>> 79ac04b387940018f32fb09d4cbb53c86586d7a1
+=======
+>>>>>>> 79ac04b387940018f32fb09d4cbb53c86586d7a1

@@ -4,7 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+namespace CalculoDeRisco.REGULAMENTAR
+=======
 namespace PrimeiroProjeto.REGULAMENTAR
+>>>>>>> 79ac04b387940018f32fb09d4cbb53c86586d7a1
+=======
+namespace PrimeiroProjeto.REGULAMENTAR
+>>>>>>> 79ac04b387940018f32fb09d4cbb53c86586d7a1
 {
     public static partial class StandardizedApproachRegulatoryCapitalForDrcCalculation
     {
